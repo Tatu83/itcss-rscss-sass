@@ -11,3 +11,17 @@ Para conseguir una unión perfecta entre Arqitectura y Metodología se llevan a 
 Para la escritura del código CSS utilizaremos **SASS** para facilitar la modularidad, mantenibilidad y escalabilidad del código. En la carpeta **/scss/** está todo el código fuente que deberá ser compilado para ponerlo en producción en los archivos site.css o **site.min.css**.
 
 Síentete libre de utilizar, mejorar y ampliar este proyecto, y por supuesto ... compártelo :)
+
+# Prefijos
+
+Los prefijos en los selectores nos ayudarán a identificar mejor qué es cada cosa cuando estemos trabjando y tengamos multimes archivos abiertos.
+
+- o-: Objetos (elementos en RSCSS)
+- c-: Componentes
+- l-: Layouts
+- u-: Utilities
+
+Estos serían los prefijos básicos que tenemos que utilizar y aplicar como buena práctica a la hora de definir el nombre de nuestros selectores. Adicionalmente se pueden incluir otros prefijos que puedan ser de utilidad, como podrían ser los siguientes:
+
+- is-, has-: Para definir selectores que aplican unas ciertas reglas de estilo como consecuencia de un determinado estado o condición.
+- js-: Para definir que ese elemento es usado en Javascript para realizar alguna operación o interacción. Siempre que sea posible los selectores js- deberían ser usados únicamente en Javascript y por lo tanto no deberían tener reglas CSS en nuestros archivos .scss.
