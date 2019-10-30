@@ -1,0 +1,16 @@
+/* 
+* Selectores basados en clases que definen patrones de diseño no decorados.
+* 
+*
+* IMPORTANTE:   Esta capa se utilizará para definir lo que en RSCSS 
+*               (https://rscss.io/) se conocen como elementos.
+*               Estos selectores deben definir las propiedades generales
+*               de dichos elementos no contextualizados bajo ningún
+*               componente.
+*
+* Alugunos ejemplos a continuacion, sientete libre
+* de usarlos, no usarlos, ampliarlo ...
+*/
+@import 'image';
+@import 'title';
+@import 'category';

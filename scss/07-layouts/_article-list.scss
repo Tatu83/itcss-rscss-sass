@@ -1,0 +1,11 @@
+.l-article-list {
+	/* Estilos generales del layout */
+
+	/* Estilos modificadores del layout */
+	&.-modifier1 {}
+	
+	/* Estilos del componente en el contexto de un layout */
+	> .c-article-card {
+		
+	}
+}

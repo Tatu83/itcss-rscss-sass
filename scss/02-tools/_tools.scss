@@ -1,0 +1,26 @@
+/* 
+* Mixins y funciones utilizadas globalmente para facilitar
+* la escritura de nuestros CSS más complejos.
+* Puedes generarlos tu mismo o utilizar alguna librería 
+* de terceros, en caso de usar una librería, hay incluirla 
+* en esta carpeta e importarla en esta hoja de estilos. 
+*
+* IMPORTANTE:   Esta capa no debe generar CSS en nuestra 
+*               Hoja de estilo para produccion.
+*
+* Alugunos ejemplos a continuacion, sientete libre
+* de usarlos, no usarlos, ampliarlo ...
+*/
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+	border-radius: $radius;
+}

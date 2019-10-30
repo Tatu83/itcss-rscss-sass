@@ -1,0 +1,64 @@
+/* 
+* Estilos para etiquetas de HTML (h1, a, p ...)
+* 
+*
+* IMPORTANTE:   Si con lo incluido en generic es suficiente
+*               y no se necesita nada mas para normalizar
+*               etiquetas html esta capa se puede omitir.
+*
+* Alugunos ejemplos a continuacion, sientete libre
+* de usarlos, no usarlos, ampliarlo ...
+*/
+
+/* ==========================================================================
+HTML5 Boilerplate 7.2.0 
+Base styles: opinionated defaults
+========================================================================== */
+html {
+	color: #333;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+/*
+* A better looking default horizontal rule
+*/
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/*
+* Remove the gap between audio, canvas, iframes,
+* images, videos and the bottom of their containers:
+* https://github.com/h5bp/html5-boilerplate/issues/440
+*/
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+/*
+* Remove default fieldset styles.
+*/
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+* Allow only vertical resizing of textareas.
+*/
+textarea {
+	resize: vertical;
+}

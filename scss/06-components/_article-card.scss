@@ -1,0 +1,22 @@
+.c-article-card {    
+	/* Estilos generales del componente */
+	
+	/* Estilos de los objetos en el contexto del componente */
+	> .o-image { }
+	> .o-title { }
+	> .o-category { }
+	
+	/* Modificadores del componente */
+	&.-modifier1 {
+		/* Estilos generales del modificador de un componente */
+	}
+
+	/* Estilos de los objetos de un componente en el contexto de un modificador de componente*/
+	&.-modifier1 > .o-image { }
+	&.-modifier1 > .o-title { }
+	&.-modifier1 > .o-category { }
+
+	&.-modifier2 {
+		/* Estilos generales del modificador de un componente */
+	}
+}
