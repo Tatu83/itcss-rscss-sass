@@ -6,7 +6,7 @@
 * 				!important en sus propiedades y deben ser unicos.
 *               
 *
-* Alugunos ejemplos a continuacion, sientete libre
+* Algunos ejemplos a continuacion, sientete libre
 * de usarlos, no usarlos, ampliarlo ...
 */
 
@@ -18,7 +18,7 @@ Helper classes
 * Hide visually and from screen readers
 */
 
-.hidden {
+.u-hidden {
 	display: none !important;
 }
 
@@ -31,7 +31,7 @@ Helper classes
 *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
 
-.sr-only {
+.u-sr-only {
 	border: 0;
 	clip: rect(0, 0, 0, 0);
 	height: 1px;
@@ -50,8 +50,8 @@ Helper classes
 * https://www.drupal.org/node/897638
 */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
+.u-sr-only.focusable:active,
+.u-sr-only.focusable:focus {
 	clip: auto;
 	height: auto;
 	margin: 0;
@@ -65,7 +65,7 @@ Helper classes
 * Hide visually and from screen readers, but maintain layout
 */
 
-.invisible {
+.u-invisible {
 	visibility: hidden;
 }
 
@@ -81,14 +81,14 @@ Helper classes
 *    `:before` to contain the top-margins of child elements.
 */
 
-.clearfix:before,
-.clearfix:after {
+.u-clearfix:before,
+.u-clearfix:after {
 	content: " ";
 	/* 1 */
 	display: table;
 	/* 2 */
 }
 
-.clearfix:after {
+.u-clearfix:after {
 	clear: both;
 }
